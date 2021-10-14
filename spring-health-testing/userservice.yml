@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    database: MYSQL
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://127.0.0.1:3306/config_server
+    username: root
+    password: default
+    driver-class-name: com.mysql.jdbc.Driver
